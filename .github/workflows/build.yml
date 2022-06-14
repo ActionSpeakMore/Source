@@ -30,3 +30,5 @@ jobs:
         uses: SonarSource/sonarqube-quality-gate-action@v1.0.0
         with:
            scanMetadataReportFile: .scannerwork/report-task.txt
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
