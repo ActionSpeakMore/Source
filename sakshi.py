@@ -1,2 +1,2 @@
-print("")
-sfgh
+print("sfgh")
+
