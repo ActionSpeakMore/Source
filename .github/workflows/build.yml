@@ -21,6 +21,6 @@ jobs:
         with:
            args: >
             -Dsonar.organization=actionspeakmore
-            -Dsonar.projectKey=source
+            -Dsonar.projectKey=Source
             -Dsonar.python.version=3
            
